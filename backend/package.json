@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "ioredis": "^5.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "os": "^0.1.2",
+    "rate-limiter-flexible": "^5.0.3",
+    "redis": "^4.7.0"
+  }
+}
